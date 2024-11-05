@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fnav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.fnav .left {
+    display: flex;
+}
+
+.left img {
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+}
+
+.fnav .right {
+    display: flex;
+}
+
+.right p {
+    margin-inline: 22px;
+    font-size: 18px;
+}
+
+.right i {
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+.right button {
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+}
